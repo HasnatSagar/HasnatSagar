@@ -1,0 +1,39 @@
+void main(){
+  List friends = ["sagar","sobuj","marzia","jasim","anik"];
+  
+  for (var name in friends){
+    print(name);
+  }
+  print("name is ${friends[1]}");
+}
+
+
+
+
+void main(){
+  List friends = ["sagar","sobuj","marzia","jasim","anik"];
+  
+  for (var name in friends){
+    if(name== "jasim"){
+      print(name);
+      break;
+    }
+  }
+  //print("name is ${friends[1]}");
+}
+
+
+
+
+void main(){
+  List friends = ["sagar","sobuj","marzia","jasim","anik"];
+  
+  for (var name in friends){
+    if(name== "jasim"){
+      print(name);
+      break;
+    }
+    print(name);
+  }
+  //print("name is ${friends[1]}");
+}
